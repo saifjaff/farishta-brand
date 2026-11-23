@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farishta — a little light, a little company</title>
+<style>
+*{box-sizing:border-box}body{margin:0;color:#123d31;background:#f6f8f2;font:16px/1.6 system-ui,sans-serif}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #b8923e;outline-offset:4px}header,main,footer{max-width:1160px;margin:auto;padding:28px 36px}header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #dae4d9}.brand{font:30px Georgia,serif;letter-spacing:-1px}.domain{font-size:13px;color:#65796b}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.1}h1{font-size:clamp(42px,5vw,66px);margin:16px 0 22px;letter-spacing:-2px}h2{font-size:32px;margin:0 0 14px}.eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#6d806e}.intro{color:#607566;max-width:400px}.hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;padding:20px 0 36px}.stage{min-height:430px;background:radial-gradient(ellipse,#e1efd2 0,#e9f2e8 40%,#edf3eb 70%);border:1px solid #e0e8dc;border-radius:32px;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:28px;overflow:hidden}.stage farishta-companion{--farishta-size:min(360px,100%)}.speech{padding:10px 20px;border:1px solid #d6e4ce;border-radius:18px;background:#fbfcf4e8;color:#496748;font-size:14px;text-align:center;min-height:44px}.hint{font-size:12px;color:#758673;margin:16px 0 0}.controls{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.pill{border:1px solid #d3e0d0;border-radius:999px;background:#fff;padding:8px 16px;color:#47634e;font-size:13px}.pill[aria-pressed=true]{background:#174e3c;border-color:#174e3c;color:#fff}.actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px}.primary{background:#2f8f78;color:#fff;border:0;border-radius:12px;padding:12px 18px;font-weight:600;font-size:14px}.motion{background:none;border:0;color:#607566;font-size:12px;text-decoration:underline;padding:10px}.collection{border-top:1px solid #dae4d9;padding:36px 0}.section-row{display:flex;justify-content:space-between;gap:20px;align-items:end}.section-row p{font-size:13px;color:#6d806e}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}.card{background:#fff;border:1px solid #e0e7dc;border-radius:20px;padding:16px;display:flex;flex-direction:column;align-items:center;text-align:center}.card img{width:190px;max-width:100%;height:165px;object-fit:contain}.card h3{font-size:15px;margin:8px 0 2px;font-weight:600}.card p{font-size:12px;color:#748471;margin:0 0 10px}.card a{color:#2f8067;text-decoration:none;font-size:12px;border-bottom:1px solid #c7decf}.usage{margin-top:18px;border-radius:20px;background:#eaf0e4;padding:24px}.usage p{font-size:14px;color:#607566;margin:8px 0}.usage strong{font-weight:600;color:#31583e}footer{border-top:1px solid #dae4d9;color:#7a8877;font-size:12px;display:flex;justify-content:space-between;gap:16px}@media(max-width:700px){header,main,footer{padding:22px}.hero{grid-template-columns:1fr;gap:24px}.stage{min-height:340px;grid-row:2}.stage farishta-companion{--farishta-size:280px}.grid{grid-template-columns:repeat(2,1fr)}.section-row{display:block}.card img{height:135px}.domain{font-size:11px}h1{letter-spacing:-1px}.section-row p{margin-bottom:0}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><span class="brand">Farishta<span style="color:#b8923e"> ✦</span></span><span class="domain">farishta.si · companion studio</span></header>
+<main>
+  <section class="hero">
+    <div>
+      <span class="eyebrow">Meet your glow companion</span>
+      <h1>A little light.<br>A little company.</h1>
+      <p class="intro">A gentle presence for moments of remembrance. Try Farishta’s expressions, or tap the companion to say hello.</p>
+      <div class="controls" role="group" aria-label="Choose an expression">
+        <button class="pill" data-state="happy" aria-pressed="true">Happy</button>
+        <button class="pill" data-state="greeting" aria-pressed="false">Greeting</button>
+        <button class="pill" data-state="thinking" aria-pressed="false">Thinking</button>
+        <button class="pill" data-state="celebrating" aria-pressed="false">Celebrating</button>
+        <button class="pill" data-state="sleepy" aria-pressed="false">Sleepy</button>
+        <button class="pill" data-state="sad" aria-pressed="false">Sad</button>
+      </div>
+      <div class="actions"><button class="primary" id="goal">Try “goal reached”</button><button class="motion" id="motion" aria-pressed="true">Pause motion</button></div>
+    </div>
+    <div class="stage">
+      <farishta-companion id="companion" state="happy"></farishta-companion>
+      <div class="speech" id="speech" role="status" aria-live="polite">A quiet moment, together.</div>
+      <p class="hint">Tap Farishta for a greeting</p>
+    </div>
+  </section>
+  <section class="collection">
+    <div class="section-row"><div><span class="eyebrow">Six little expressions</span><h2>Same companion. Different moods.</h2></div><p>Transparent images, ready to reuse.</p></div>
+    <div class="grid" id="gallery"></div>
+    <div class="usage"><strong>A gentle role in the app</strong><p>Greeting for onboarding. Thinking while a room loads. Celebration when a shared goal is reached. Sleepy and sad are optional reactions for quiet moments or connection trouble—never for missed worship.</p></div>
+  </section>
+</main>
+<footer><span>Farishta · Remember Allah, together.</span><span>Interactive concept · sample reactions</span></footer>
+<script src="companion.js"></script>
+<script>
+const companion=document.getElementById('companion');
+const messages={happy:'A quiet moment, together.',greeting:'Salaam! Lovely to see you.',thinking:'One moment…',celebrating:'Your family reached its shared goal!',sleepy:'Resting quietly nearby.',sad:'We couldn’t connect. Let’s try again.'};
+const descriptions={happy:'Gentle everyday presence',greeting:'A warm welcome',thinking:'A thoughtful pause',celebrating:'A shared milestone',sleepy:'A peaceful moment',sad:'A little reassurance'};
+const titles={happy:'Happy',greeting:'Greeting',thinking:'Thinking',celebrating:'Celebrating',sleepy:'Sleepy',sad:'Sad'};
+companion.addEventListener('farishta-state',event=>{document.getElementById('speech').textContent=messages[event.detail.state];document.querySelectorAll('[data-state]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.state===event.detail.state)));});
+document.querySelectorAll('[data-state]').forEach(button=>button.addEventListener('click',()=>companion.setState(button.dataset.state)));
+document.getElementById('goal').addEventListener('click',()=>companion.setState('celebrating'));
+document.getElementById('motion').addEventListener('click',event=>{const off=companion.getAttribute('motion')!=='off';companion.setAttribute('motion',off?'off':'on');event.currentTarget.textContent=off?'Resume motion':'Pause motion';event.currentTarget.setAttribute('aria-pressed',String(!off));});
+for(const state of Object.keys(titles)){const card=document.createElement('article');card.className='card';card.innerHTML=`<img src="assets/${state}.webp" alt="Farishta feeling ${state}" loading="lazy"><h3>${titles[state]}</h3><p>${descriptions[state]}</p><a href="assets/${state}.png" download="farishta-${state}.png">Download PNG ↓</a>`;document.getElementById('gallery').append(card);}
+</script>
+</body>
+</html>

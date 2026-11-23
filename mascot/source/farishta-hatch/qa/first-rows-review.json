@@ -1,0 +1,332 @@
+{
+  "ok": false,
+  "frames_root": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames",
+  "errors": [
+    "expected 8 frame files for running-left, found 0",
+    "expected 4 frame files for waving, found 0",
+    "expected 5 frame files for jumping, found 0",
+    "expected 8 frame files for failed, found 0",
+    "expected 6 frame files for waiting, found 0",
+    "expected 6 frame files for running, found 0",
+    "expected 6 frame files for review, found 0"
+  ],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17399,
+          "bbox": [
+            5,
+            36,
+            187,
+            171
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 161
+        },
+        {
+          "index": 1,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13390,
+          "bbox": [
+            5,
+            51,
+            187,
+            156
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 155
+        },
+        {
+          "index": 2,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13046,
+          "bbox": [
+            5,
+            51,
+            187,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 106
+        },
+        {
+          "index": 3,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13402,
+          "bbox": [
+            5,
+            51,
+            187,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 113
+        },
+        {
+          "index": 4,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17526,
+          "bbox": [
+            5,
+            36,
+            187,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 183
+        },
+        {
+          "index": 5,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13742,
+          "bbox": [
+            5,
+            50,
+            187,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 133
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18763,
+          "bbox": [
+            5,
+            28,
+            187,
+            179
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 292
+        },
+        {
+          "index": 1,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18961,
+          "bbox": [
+            5,
+            36,
+            187,
+            172
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 252
+        },
+        {
+          "index": 2,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13880,
+          "bbox": [
+            5,
+            49,
+            187,
+            159
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 169
+        },
+        {
+          "index": 3,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20465,
+          "bbox": [
+            5,
+            25,
+            187,
+            183
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 285
+        },
+        {
+          "index": 4,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19747,
+          "bbox": [
+            5,
+            23,
+            187,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 341
+        },
+        {
+          "index": 5,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18892,
+          "bbox": [
+            5,
+            34,
+            187,
+            174
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 272
+        },
+        {
+          "index": 6,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13794,
+          "bbox": [
+            5,
+            50,
+            187,
+            157
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 190
+        },
+        {
+          "index": 7,
+          "file": "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18499,
+          "bbox": [
+            5,
+            30,
+            187,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 254
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 8 frame files for running-left, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 4 frame files for waving, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 5 frame files for jumping, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 8 frame files for failed, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 6 frame files for waiting, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 6 frame files for running, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 0,
+      "extraction_method": null,
+      "ok": false,
+      "errors": [
+        "expected 6 frame files for review, found 0"
+      ],
+      "warnings": [],
+      "frames": []
+    }
+  ]
+}

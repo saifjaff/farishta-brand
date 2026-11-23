@@ -1,0 +1,29 @@
+{
+  "states": [
+    {
+      "state": "flutter",
+      "frames": 6,
+      "unique_frames": 6,
+      "transparent": true,
+      "duration_ms": 900
+    },
+    {
+      "state": "greeting",
+      "frames": 4,
+      "unique_frames": 4,
+      "transparent": true,
+      "duration_ms": 960
+    },
+    {
+      "state": "spin",
+      "frames": 6,
+      "unique_frames": 6,
+      "transparent": true,
+      "duration_ms": 920
+    }
+  ],
+  "preview_gif_frames": 29,
+  "frame_timing_checks": "passed",
+  "javascript_syntax": "passed",
+  "browser_playback": "not tested; local preview access blocked in this session"
+}

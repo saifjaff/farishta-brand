@@ -1,0 +1,15 @@
+{
+  "rendered_frames": 780,
+  "sampled_rate_fps": 60,
+  "continuous_changes": 259,
+  "max_sampled_color_difference": 1.616497859025033,
+  "states": [
+    "calm",
+    "hello",
+    "spin",
+    "listening",
+    "thinking",
+    "celebrate"
+  ],
+  "external_dependencies": false
+}

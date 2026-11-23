@@ -1,0 +1,22 @@
+{
+  "gif": {
+    "encoded_frames": 88,
+    "unique_poses": 48,
+    "duration_ms": 3600,
+    "rendered_samples": 90,
+    "note": "The continuous swing revisits poses; adjacent identical frames are merged without changing duration."
+  },
+  "webp": {
+    "encoded_frames": 88,
+    "unique_poses": 48,
+    "duration_ms": 3600,
+    "rendered_samples": 90,
+    "note": "The continuous swing revisits poses; adjacent identical frames are merged without changing duration."
+  },
+  "javascript_syntax": "passed",
+  "browser_playback": "not tested: local preview access blocked",
+  "sources": {
+    "body": "/Users/saifjaffery/.codex/generated_images/01a13381-b34f-7981-b865-38cd8ec1bfcc/exec-3e8c4376-9748-40de-9977-5e8bf6c4530c.png",
+    "wing": "/Users/saifjaffery/.codex/generated_images/01a13381-b34f-7981-b865-38cd8ec1bfcc/exec-e9c7dcbe-458f-4051-9400-2d4da9a98351.png"
+  }
+}

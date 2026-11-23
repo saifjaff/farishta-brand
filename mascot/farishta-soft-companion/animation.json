@@ -1,0 +1,56 @@
+{
+  "name": "Farishta",
+  "frameSize": 320,
+  "sequences": {
+    "flutter": {
+      "durations": [
+        170,
+        140,
+        140,
+        140,
+        170,
+        140
+      ],
+      "frames": [
+        "frames/flutter/00.webp",
+        "frames/flutter/01.webp",
+        "frames/flutter/02.webp",
+        "frames/flutter/03.webp",
+        "frames/flutter/04.webp",
+        "frames/flutter/05.webp"
+      ]
+    },
+    "greeting": {
+      "durations": [
+        220,
+        180,
+        200,
+        360
+      ],
+      "frames": [
+        "frames/greeting/00.webp",
+        "frames/greeting/01.webp",
+        "frames/greeting/02.webp",
+        "frames/greeting/03.webp"
+      ]
+    },
+    "spin": {
+      "durations": [
+        180,
+        140,
+        140,
+        180,
+        140,
+        140
+      ],
+      "frames": [
+        "frames/spin/00.webp",
+        "frames/spin/01.webp",
+        "frames/spin/02.webp",
+        "frames/spin/03.webp",
+        "frames/spin/04.webp",
+        "frames/spin/05.webp"
+      ]
+    }
+  }
+}

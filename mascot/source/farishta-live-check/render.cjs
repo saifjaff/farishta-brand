@@ -1,0 +1,11 @@
+const fs=require('node:fs');
+const vm=require('node:vm');
+const {createCanvas}=require('/Users/saifjaffery/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/@napi-rs/canvas');
+const source=fs.readFileSync('work/farishta-live-engine.js','utf8');
+const Engine=vm.runInNewContext(source+';FarishtaLiveMotion;');
+const canvas=createCanvas(736,440);const engine=new Engine(canvas);engine.setSize(736,440,1);
+for(let i=0;i<90;i++)engine.step(1/60);
+engine.render();fs.writeFileSync('work/farishta-live-check/calm.png',canvas.toBuffer('image/png'));
+engine.setMode('celebrate');for(let i=0;i<55;i++)engine.step(1/60);engine.render();fs.writeFileSync('work/farishta-live-check/celebrate.png',canvas.toBuffer('image/png'));
+engine.setMode('spin');for(let i=0;i<80;i++)engine.step(1/60);engine.render();fs.writeFileSync('work/farishta-live-check/back.png',canvas.toBuffer('image/png'));
+console.log('Canvas renderer executed; calm, celebration and rear-view renders saved.');

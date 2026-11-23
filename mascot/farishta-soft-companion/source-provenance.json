@@ -1,0 +1,122 @@
+[
+  {
+    "state": "flutter",
+    "source": "/Users/saifjaffery/.codex/generated_images/01a13395-d6f8-7742-9e24-7b7becd80a4c/exec-dcf0c1e1-d85d-44d8-8b75-e1b2655a1cfd.png",
+    "frame_count": 6,
+    "source_bounds": [
+      [
+        35,
+        224,
+        344,
+        497
+      ],
+      [
+        394,
+        241,
+        717,
+        497
+      ],
+      [
+        765,
+        254,
+        1061,
+        504
+      ],
+      [
+        1112,
+        243,
+        1423,
+        497
+      ],
+      [
+        1474,
+        224,
+        1784,
+        498
+      ],
+      [
+        1834,
+        245,
+        2147,
+        501
+      ]
+    ],
+    "shared_row_scale": true
+  },
+  {
+    "state": "greeting",
+    "source": "/Users/saifjaffery/.codex/generated_images/01a1339d-daa8-7833-9fd8-01d90d1b9bd6/exec-7389944a-405c-49cd-bf7e-f4ea65d15315.png",
+    "frame_count": 4,
+    "source_bounds": [
+      [
+        49,
+        174,
+        545,
+        606
+      ],
+      [
+        611,
+        172,
+        1072,
+        606
+      ],
+      [
+        1108,
+        173,
+        1608,
+        606
+      ],
+      [
+        1652,
+        172,
+        2140,
+        605
+      ]
+    ],
+    "shared_row_scale": true
+  },
+  {
+    "state": "spin",
+    "source": "/Users/saifjaffery/.codex/generated_images/01a13396-4a24-7e00-a565-369bbdad814e/exec-a9484ead-5f3a-4faa-a7b7-bd91605150d1.png",
+    "frame_count": 6,
+    "source_bounds": [
+      [
+        11,
+        172,
+        366,
+        547
+      ],
+      [
+        405,
+        173,
+        697,
+        547
+      ],
+      [
+        745,
+        172,
+        1041,
+        547
+      ],
+      [
+        1090,
+        172,
+        1446,
+        548
+      ],
+      [
+        1493,
+        173,
+        1785,
+        548
+      ],
+      [
+        1844,
+        173,
+        2136,
+        547
+      ]
+    ],
+    "shared_row_scale": true
+  }
+]

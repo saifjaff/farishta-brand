@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": [
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/00.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/01.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/02.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/03.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/04.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/idle/05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-right",
+      "frames": [
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/00.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/01.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/02.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/03.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/04.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/05.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/06.png",
+        "/Users/saifjaffery/Documents/Codex/2026-09-29/https-family-dhikr-vercel-app-https/work/farishta-hatch/frames/running-right/07.png"
+      ],
+      "method": "components"
+    }
+  ]
+}
